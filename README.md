@@ -7,10 +7,12 @@
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/openmindsclub/H4ckT0b3rF3st-2k21)](https://GitHub.com/Naereen/StrapDown.js/pull/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/openmindsclub/H4ckT0b3rF3st-2k21)](https://GitHub.com/Naereen/StrapDown.js/pull/)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/openmindsclub/H4ckT0b3rF3st-2k21?style=social&label=Watch&maxAge=2592000)](https://github.com/openmindsclub/H4ckT0b3rF3st-2k21/watchers)
-[![GitHub stars](https://img.shields.io/github/stars/openmindsclub/H4ckT0b3rF3st-2k21?style=social&label=Star&maxAge=2592000)](https://github.com/openmindsclub/H4ckT0b3rF3st-2k21/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/openmindsclub/H4ckT0b3rF3st-2k21?style=social&label=Fork&maxAge=2592000)](https://github.com/openmindsclub/H4ckT0b3rF3st-2k21/network/members)
-  ## Table of Content:
+
+[![GitHub watchers](https://img.shields.io/github/watchers/openmindsclub/H4ckT0b3rF3st-2k21?style=social)](https://github.com/abdelhak2406/test/network)
+[![GitHub forks](https://img.shields.io/github/forks/openmindsclub/H4ckT0b3rF3st-2k21?style=social)](https://github.com/abdelhak2406/test/network)
+[![GitHub stars](https://img.shields.io/github/stars/openmindsclub/H4ckT0b3rF3st-2k21?style=social)](https://github.com/abdelhak2406/test/network)
+
+## Table of Content:
   * [What Is Hacktoberfest?](#What-Is-Hacktoberfest)
   * [What Can You Earn?](#What-Can-You-Earn)
   * [How To Make Your First Contribution?](#How-To-Make-Your-First-Contribution)
