@@ -1,5 +1,5 @@
 ## ![logo](https://www.pixenli.com/image/D8IcXWhb) OpenMinds Club is joining Hacktoberfest 2021!![logo](https://www.pixenli.com/image/D8IcXWhb) 
-![Event logo](https://www.pixenli.com/image/Z_Ucp6bb)
+![Event logo](https://www.pixenli.com/image/9Ws7i63v)
 
 [![opensource  Love svg1 ](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -40,8 +40,7 @@ Happy Hacking!
   * **Brave Benefactor**: most number of Pull Requests to the repo.
   * **Story Sensation**: most change rate (additions + deletions) to the Open Source Story project.
   * **Diligent Developer**: most number of Pull Requests to projects related to IT.
-  * **Creative native**: best Game splash screen for Tux game.
-  * **Erudite Editor**: best video montage in the Montage Contest.<br/>
+  * **Creative native**: best Game splash screen for Tux game.<br/>
   
 ### Rules:
 The best Game splash screen and video montage will be judged by our members then decided by the vote of our community on social media.
@@ -89,19 +88,17 @@ git push origin master
 
 ## Tasks and Challenges
 
-### 1. Add your name
-Add your name to the `CONTRIBUTORS.md` file.
-``` markdown
-#### [your-username](https://github.com/your-username)
-```
-### 2. MyOctocat Challenge
+*we will accept your pull request once its content has been verified by one of our organizers, and that for each contribution in one of our projects or challenges*
+
+### Task 1:
+### 1. MyOctocat Challenge
 Make a unique design for octocat and share it with the rest of the world:
 * Go to MyOctocat.com
 * Design your Octocat.
 * Save your Octocat to username_octocat'sname_octocat.png e.g: Qtty_Tux_octocat.png
 * Upload the file to /myOctocat directory and do a pull request!
 
-### 3. Add a profile page
+### 2. Add a profile page
 Add a `Your_Full_Name.md` file to the profiles directory. Use any combination of content and [Markdown](https://guides.github.com/features/mastering-markdown/) you'd like. Here is an example:
 ```markdown
 # Your Full Name
@@ -128,14 +125,17 @@ Your school + Your major
 [project](https://github.com/your-username/project)
 [book title](amazon url to the book)
 ```
-### 4. Solve one of the challenges in the repo
-There are plenty of empty projects in the repo, read the README.md file in of the projects and try to code what it says.
+### Task 2:
+### Solve one of the challenges in the repo
+There are plenty of challenges in the repo, read the README.md file in of the `/challanges` and try to do what it says. 
 
-### 5. Solve an issue
-Go to the issues section by clicking on the `Issues` button on the top of the page and try to solve one of the issues.
+### Task 3:
+### Contribute in our IT projects and solve issues
+Go to the `/projects` file and you will find some empty, not finished or some issues in our projects, try to fix or improve the code by finding and solving one of the issues.
 
-### 6. Add your own project
-You have an idea and you wanna make it happen? start coding and push your project to the `/projects` directory in the repo.
+### Task 4:
+### Add your own project
+You have an idea and you wanna make it happen? start coding and push your project to the `/Your_projects` directory in the repo.
 
 ## MAKE IT A PLAYFUL FEST!
   Hacktoberfest participants, so far, have represented 151 countries and thousands of unique skill-sets. Its program welcomes everyone already in the open source software community – and, of course, anyone interested in diving in!
