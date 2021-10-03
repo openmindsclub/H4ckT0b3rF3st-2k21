@@ -3,7 +3,7 @@
 in order for us to accept your pull request:
 - Build and style your own design
 - Save your design, name your file as: username_Tux (ex: openmindsclub_Tux.png)
-- Your design must be sent in .PNG with 1920 x 1080 resolution or in .AI or .PDF format if vector.
+- Your design must be sent in .PNG with 1920 x 1080 resolution (or any 16:9 ratio) or in .AI or .PDF format if vector.
 - Any incomplete work will not be accepted unless it is very funny.
 - Any artwork that does not match the theme will not be accepted.
 ## Judging criteria
