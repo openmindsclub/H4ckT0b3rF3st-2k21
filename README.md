@@ -80,7 +80,7 @@ git clone https://github.com/YOURUSERNAME/H4ckT0b3rF3st-2k20.git
 git add .
 git commit -m "My First Commit"
 git status
-git push origin master
+git push origin main
 ```
 6. Create a PR from the forked repo in your account.
 7. Voilà! You have just created a Pull Request, your PR will be reviewed by one of our maintainers and merged to the original repo.
@@ -99,6 +99,11 @@ There are plenty of challenges in the repo, read the README.md file in of the `/
 Go to the `/projects` file and you will find some empty, not finished or some issues in our projects, try to fix or improve the code by finding and solving one of the issues.
 
 ### Task 3:
+### Opensource story and/or tux_game_prize
+You will find in our repo, two special challenges, **Open Source story** and **tux_game_prize**, for each challenge u can respectively win the prize of story sensation and creative native prize.
+
+
+### Task 4:
 ### Add your own project
 You have an idea and you wanna make it happen? start coding and push your project to the `/Your_projects` directory in the repo.
 
