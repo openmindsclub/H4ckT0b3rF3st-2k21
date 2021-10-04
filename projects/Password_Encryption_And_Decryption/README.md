@@ -47,7 +47,7 @@ git pull origin master
 ```
 
 ```Python
-#After finishing creating your function go to the FunctionSelector function and copy paste the elif comment
+#After finishing creating your functions go to the FunctionSelector function and copy paste the elif comment
 # uncomment it and give it a key name and put your functions in the appropriate variables for exemple :
 
 elif choice == "MyFunctions": #key name
