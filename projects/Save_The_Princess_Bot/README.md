@@ -24,11 +24,26 @@ Before starting 🏁, you need to have [Git](https://git-scm.com) and [Python](h
 ## Starting
 
 ```bash
-# Clone this project
-$ git clone
+# Create a directory, so Git doesn't get messy, and enter it
+mkdir my-dir && cd my-dir
 
-# Access
-$ cd Save_The_Princess_Bot
+# Start a Git repository
+git init
+
+# Track repository, do not enter subdirectory
+git remote add -f origin https://github.com/openmindsclub/H4ckT0b3rF3st-2k21/
+
+# Enable the tree check feature
+git config core.sparseCheckout true
+
+# Create a file in the path: .git/info/sparse-checkout
+# That is inside the hidden .git directory that was created
+# by running the command: git init
+# And inside it enter the name of the sub directory you only want to clone
+echo 'projects/Save_The_Princess_Bot' >> .git/info/sparse-checkout
+
+## Download with pull, not clone
+git pull origin master
 
 #go to the SaveThePrincess.py file and copy past the YourFunction() function change it's name and start creating your funcion.
 
