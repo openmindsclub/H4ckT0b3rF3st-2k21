@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body 
+{
+    padding-top: 100px;
+    width: 100%;
+    background-color: #EEEEEE;
+    position: relative;
+	
+}
+
+/******header*******/
+header
+{
+	background-color:rgba(0, 0, 0, 0.7) ;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+	position: absolute;
+    right:0;
+	top:0;
+	width:100%;
+    height: 70px;
+	overflow:hidden;
+    z-index: 2;
+}
+
+a:link
+{
+text-decoration: none;
+}
+
+.main-header .logo
+{
+	display:block;
+	float:left;
+	height:50px;
+	width:230px;
+	line-height:50px;
+	text-align:center;
+    color: #FFF;
+    font-size:30px;
+}
+
+.main-header ul.login
+{
+	float:right;
+	display:block;
+	margin:10px;
+	height:50px;
+}
+
+.main-header ul.login li
+{
+	display:inline-block;
+	padding:10px;
+	line-height:26px;
+    color: #FFF;
+}
+
+.main-header ul.login li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:2s ease;
+}
+
+.main-header ul.login li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.main-header ul.login li.active a
+{
+	background-color: #fff;
+	color: #000;
+}
+
+/******books section*******/
+
+.welcome
+{
+    margin: 20px;
+}
+
+h1
+{
+	margin: 40px;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 100% auto;
+}
+
+
+
+/******* books cards *******/
+
+img
+{
+    height: 400px;
+    width: 300px;
+}
+
+.container
+{
+    margin: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+	margin: 10px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 2s;
+    box-shadow: inst 300px 0 50px rgba(0,0,0,0.5);
+}
+
+.card:hover
+{
+    z-index: 1000;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,0.5);
+}
+.card .imgBox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+}
+
+.card:hover .imgBox
+{
+    transform: rotateY(-135deg);
+}
+
+.card .imgBox .img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/*****footer*****/
+footer 
+{
+    position: absolute fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: rgb(78, 76, 76);
+    font-size: small;
+    text-align: right;
+}
