@@ -27,7 +27,7 @@ sudo apt-get install python3-tk
 
 ## Starting
 
-You can :
+You can download this project only by running those commands :
 
 ```bash
 # Create a directory, so Git doesn't get messy, and enter it
