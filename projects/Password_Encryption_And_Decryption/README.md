@@ -46,7 +46,7 @@ git config core.sparseCheckout true
 # That is inside the hidden .git directory that was created
 # by running the command: git init
 # And inside it enter the name of the sub directory you only want to clone
-echo 'projects/Save_The_Princess_Bot' >> .git/info/sparse-checkout
+echo 'projects/Password_Encryption_And_Decryption' >> .git/info/sparse-checkout
 
 ## Download with pull, not clone
 git pull origin master
