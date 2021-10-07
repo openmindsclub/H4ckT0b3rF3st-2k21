@@ -19,7 +19,7 @@ In this project, we already created a simple Encryption and Decryption function 
 
 ## Requirements
 
-Before starting 🏁, you need to have [Python](https://www.python.org/downloads/) installed.
+Before starting 🏁, you need to have [Python](https://www.python.org/downloads/) installed.<br>
 For linux users you may need to install python3-tk in order to use tkinter, just open a terminal and execute the command
 ```bash
 sudo apt-get install python3-tk
