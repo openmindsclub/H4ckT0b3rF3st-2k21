@@ -19,11 +19,20 @@ In this project, we already created a simple Encryption and Decryption function 
 
 ## Requirements
 
-Before starting 🏁, you need to have [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed.
+Before starting 🏁, you need to have [Python](https://www.python.org/downloads/) installed.
+For linux users you may need to install python3-tk in order to use tkinter, just open a terminal and execute the command
+```bash
+sudo apt-get install python3-tk
+```
 
 ## Starting
 
+You can download this project only by running those commands :
+
 ```bash
+# Create a directory, so Git doesn't get messy, and enter it
+mkdir my-dir && cd my-dir
+
 # Start a Git repository
 git init
 
@@ -37,32 +46,41 @@ git config core.sparseCheckout true
 # That is inside the hidden .git directory that was created
 # by running the command: git init
 # And inside it enter the name of the sub directory you only want to clone
-echo 'projects/password_encryption_and_decryption' >> .git/info/sparse-checkout
+echo 'projects/Save_The_Princess_Bot' >> .git/info/sparse-checkout
 
 ## Download with pull, not clone
 git pull origin master
+```
+Or just download the whole repo using the command :
 
-#go to the functions.py file and create your function under the "Create your function here" comment
-
+```bash
+git clone https://github.com/openmindsclub/H4ckT0b3rF3st-2k21.git
 ```
 
-```Python
-#After finishing creating your functions go to the FunctionSelector function and copy paste the elif comment
-# uncomment it and give it a key name and put your functions in the appropriate variables for exemple :
+Go to the functions.py file and create your function under the "Create your function here" comment
 
+After finishing creating your functions go to the FunctionSelector function and copy paste the elif comment uncomment it and give it a key name and put your functions in the appropriate variables for exemple :
+```Python
 elif choice == "MyFunctions": #key name
     e = lambda str : MyEncryptionFunction(str)
     d = lambda str : MyDecryptionFunction(str)
+```
 
-#All what is left to do is to add your key name on the list in the ReturnFunctionsList function like this
+All what is left to do is to add your key name on the list in the ReturnFunctionsList function like this
 
+```Python
 def ReturnFunctionsList():
     return ["Default", "MyFunctions"] #key name added
-
-#You can then test your function by running the Main.py file, once the UI shows up
-# click on the Encryption/Decryption Mod button to select your key name so he program will use your function
-
 ```
+
+You can then test your function by running the Main.py file by using the compile button on your editor/IDE or by using the command
+
+```bash
+python3 SaveThePrincess.py
+```
+once the UI shows up click on the Encryption/Decryption Mod button to select your key name so he program will use your function
+
+
 
 <p align="center">
 <a href="#top">Back to top</a>
