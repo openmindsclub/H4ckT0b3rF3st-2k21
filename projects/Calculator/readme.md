@@ -3,7 +3,7 @@
 Create your own Python Calculator App using Python and tkinter.
 ## Your task
 In order to complete this calculator app , you need to add the missing functions that already exist in the graphical interface but don't give any result or even add your own functions. Here are some things you can develop in the calculator to contribute:
-1. Add the  square function and the square root function so the calculator will be able to calculate the equations that contain those two functions.
+1. Make a function that calculates the square and the square root.
 2. You can also add other functions like cos, sin and for this you need to modify the graphical interface of the calculator.
 3. Any other ideas are welcomed.
 ## Requirements
