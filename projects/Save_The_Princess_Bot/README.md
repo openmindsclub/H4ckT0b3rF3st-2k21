@@ -19,9 +19,15 @@ In this project, we already created a simple path finding method using euclidian
 
 ## Requirements
 
-Before starting 🏁, you need to have [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed.
+Before starting 🏁, you need to have [Python](https://www.python.org/downloads/) installed.
+For linux users you may need to install python3-tk in order to use tkinter, just open a terminal and execute the command
+```bash
+sudo apt-get install python3-tk
+```
 
 ## Starting
+
+You can :
 
 ```bash
 # Create a directory, so Git doesn't get messy, and enter it
@@ -44,19 +50,25 @@ echo 'projects/Save_The_Princess_Bot' >> .git/info/sparse-checkout
 
 ## Download with pull, not clone
 git pull origin master
-
-#go to the SaveThePrincess.py file and copy past the YourFunction() function change it's name and start creating your funcion.
-
 ```
+Or just download the whole repo using the command :
+
+```bash
+git clone https://github.com/openmindsclub/H4ckT0b3rF3st-2k21.git
+```
+Go to the SaveThePrincess.py file and copy past the YourFunction() function change it's name and start creating your funcion.
 
 ```Python
 #After finishing your function replace FindThePath by the name of your Function
 
 start(i,FindThePath()) ===> start(i,YourFunction())
-
-#Compile and see the result
-
 ```
+Compile and see the result by using the compile button on your editor/IDE or by using the command
+
+```bash
+python3 SaveThePrincess.py
+```
+
 
 <p align="center">
 <a href="#top">Back to top</a>
