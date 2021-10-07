@@ -3,7 +3,7 @@
   * [Overview](#Overview)
   * [Story summary](#Story-summary)
   * [Guidelines](#Guidelines)
-  * [Judging criteria](# Judging-criteria)
+  * [Judging criteria](#Judging-criteria)
   * [Getting Started - Advanced](#Getting-Started-Advanced)
   * [Creative native winner prizes](#Creative-native-winner-prizess)
 
