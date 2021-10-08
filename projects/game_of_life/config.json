@@ -1,0 +1,15 @@
+{
+    "screen_size_width":1200,
+    "screen_size_height":800,
+    "background_color":"darkslategray",
+    "cell_color":"tomato",
+    "cell_size_width":12,
+    "cell_size_height":12,
+    "initial_config":[
+        [40,30],
+        [40,31],
+        [41,30],
+        [41,29],
+        [42,30]
+    ]
+}

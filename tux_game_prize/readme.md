@@ -1,5 +1,11 @@
 # Tux the commander ![tux](https://www.pixenli.com/image/qA8YWVw2)
 
+  * [Overview](#Overview)
+  * [Story summary](#Story-summary)
+  * [Guidelines](#Guidelines)
+  * [Judging criteria](#Judging-criteria)
+  * [Creative native winner prizes](#Creative-native-winner-prizes)
+
 ## Overview
 “Tux the commander” is a 2D plateform game based on the concept of war, where the player embodies the role of the main character to save his friends from the hands of the enemy clan. The game is inspired by linux mascot “Tux” who plays the main role of a commander who finds himself in the duty to protect his community against enemies who covet their territory. 
 ## Story summary

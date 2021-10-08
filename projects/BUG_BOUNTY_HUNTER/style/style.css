@@ -1,0 +1,263 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(../img/0.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/********header**********/
+header
+{
+	background-color:rgba(0, 0, 0, 0.7) ;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+	position: absolute;
+    right:0;
+	top:0;
+	width:100%;
+    height: 70px;
+	overflow:hidden;
+    z-index: 2;
+}
+
+a:link
+{
+text-decoration: none;
+}
+
+.main-header .logo
+{
+	display:block;
+	float:left;
+	height:50px;
+	width:230px;
+	line-height:50px;
+	text-align:center;
+    color: #FFF;
+    font-size:30px;
+}
+
+.main-header ul.login
+{
+	float:right;
+	display:block;
+	margin:10px;
+	height:50px;
+}
+
+.main-header ul.login li
+{
+	display:inline-block;
+	padding:10px;
+	line-height:26px;
+    color: #FFF;
+}
+
+.main-header ul.login li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:2s ease;
+}
+
+.main-header ul.login li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.main-header ul.login li.active a
+{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+/*********index style**********/
+
+
+div
+{
+    display: block;
+}
+
+.title
+{
+
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.description
+{
+    margin: 5x;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px; 
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.quote
+{
+    font-size: 18px;
+    align-items:center;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.7);
+    justify-content:center;
+    margin:50px;
+    padding: 50px;
+    color: #FFF;
+    white-space: nowrap;
+    overflow:hidden;
+    animation:typing 5s steps(300,end) forwards,
+              blink 1s infinite;
+}
+
+  @keyframes typing 
+{
+    10% { width:10% }
+    90% { width:90% }
+}
+
+
+
+/******login pages***/
+.container 
+{
+    margin-top: 150px;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(17, 16, 16, 0.726);
+    border-radius: 5px;
+    padding: 15px 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container .login-text 
+{
+    color: rgb(255, 251, 251);
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .login-social 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 25px;
+}
+
+.container .login-social a 
+{
+    padding: 12px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+    transition: .3s;
+}
+
+
+.container .login .input-form 
+{
+    width: 100%;
+    height: 50px;
+    margin-bottom:50px;
+    color: #FFF;
+}
+
+
+.container .login .input-form input 
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 15px;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+    color: #FFF;
+}
+
+
+.container .login .input-form .btn 
+{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #000000;
+    outline: none;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login .input-form .btn:hover 
+{
+    transform: translateY(-5px);
+    background: #000000;
+}
+
+.login-register-text 
+{
+    color: rgb(199, 194, 194);
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login-register-text a 
+{
+    text-decoration: none;
+    color: #cacaca;
+    text-decoration: underline ;
+}
+
+/******footer******/
+
+footer 
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: rgba(206, 204, 204, 0.562);
+    font-size: small;
+    text-align: right;
+}
+    
+     
