@@ -36,5 +36,5 @@ The solution to the problem is the way the action is resolved. For example, Kati
 ```
 
 #### 3. Write Away
-Now's the time for the pen(or keyboard) warriors to shine. Put on your armor and put out your thoughts on the story of your choice.
+Now's the time for the pen(or keyboard) warriors to shine. Put on your armor and put out your thoughts on the story of your choice.<br/>
 Add a `story-title.md` or `story-title.txt` file to this folder (ex: `TuxJourney.md` or `TuxJourney.txt`). and let your pen (Keyboard) run through the words of your imagination ! (the story must contain more than 500 words)
