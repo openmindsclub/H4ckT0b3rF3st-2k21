@@ -112,6 +112,6 @@ Vous avez une idée et vous voulez la concrétiser ? commencez à coder et trans
 
 
 
-## FAITES-EN UNE FÊTE amusante !
+## FAITES-EN UNE FÊTE AMUSANTE !
 Jusqu'à présent, les participants au Hacktoberfest ont représenté 151 pays et des milliers de compétences uniques. Son programme accueille déjà tous ceux qui font déjà partie de la communauté des logiciels open source – et, bien sûr, toute personne intéressée par la plongée !
 
