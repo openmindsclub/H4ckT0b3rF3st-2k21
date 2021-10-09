@@ -29,7 +29,7 @@ S = "<section id="word-section"><span class="current-word">you</span><span>appea
 
 4. using any image editing software take a screenshot and get the coordinations of the typing box then Run the script : <br>
 ```
-$ python Autotyper X Y
+$ python3 Autotyper X Y
 ```
 ### 3. Tasks :
 As you see the script is lacking a lot of features to be usable, and this is what we need you to help us achieve !</br>
