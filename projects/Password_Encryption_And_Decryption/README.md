@@ -76,7 +76,7 @@ def ReturnFunctionsList():
 You can then test your function by running the Main.py file by using the compile button on your editor/IDE or by using the command
 
 ```bash
-python3 SaveThePrincess.py
+python3 Main.py
 ```
 once the UI shows up click on the Encryption/Decryption Mod button to select your key name so he program will use your function
 
