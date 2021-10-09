@@ -1,4 +1,4 @@
-# Sound effect challenge
+# Sounds effect challenge
 
 You want to be the DJ of the fest, this challenge is for you.
 

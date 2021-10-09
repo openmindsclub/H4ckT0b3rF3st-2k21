@@ -49,7 +49,7 @@ git config core.sparseCheckout true
 echo 'projects/Save_The_Princess_Bot' >> .git/info/sparse-checkout
 
 ## Download with pull, not clone
-git pull origin master
+git pull origin main
 ```
 Or just download the whole repo using the command :
 

@@ -49,7 +49,7 @@ git config core.sparseCheckout true
 echo 'projects/Password_Encryption_And_Decryption' >> .git/info/sparse-checkout
 
 ## Download with pull, not clone
-git pull origin master
+git pull origin main
 ```
 Or just download the whole repo using the command :
 
@@ -76,7 +76,7 @@ def ReturnFunctionsList():
 You can then test your function by running the Main.py file by using the compile button on your editor/IDE or by using the command
 
 ```bash
-python3 SaveThePrincess.py
+python3 Main.py
 ```
 once the UI shows up click on the Encryption/Decryption Mod button to select your key name so he program will use your function
 
