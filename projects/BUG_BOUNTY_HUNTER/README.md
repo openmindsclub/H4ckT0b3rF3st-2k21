@@ -1,5 +1,5 @@
 <h1 align="center">
-  BUG_BOUNTY_HUNTER 
+  BUG BOUNTY HUNTER 
  <img src="https://d1tja75zfw84oj.cloudfront.net/tenants/favicons/2315/000/002/315/original/tmp_2F56594_2Fpicto_cadenas_accueil.png?1536801907" width="40px">
 </h1>
 
