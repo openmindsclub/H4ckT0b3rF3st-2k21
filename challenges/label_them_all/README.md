@@ -1,4 +1,4 @@
-# Sort List Challenge
+# Label Them All
 
 ## Description
 
