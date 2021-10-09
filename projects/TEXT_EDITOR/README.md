@@ -1,5 +1,5 @@
 <h1 align="center">
-TEXT_EDITOR_WITH_C <img src="https://www.icone-png.com/png/30/30289.png" width="40px">
+TEXT EDITOR WITH C <img src="https://www.icone-png.com/png/30/30289.png" width="40px">
 </h1>
 <br>
 
