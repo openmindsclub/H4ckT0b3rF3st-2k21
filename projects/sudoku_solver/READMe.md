@@ -10,11 +10,11 @@
 
 <br>
 
-We all spent countless hours trying to solve a sudoku in our life, so to avoid this we created a sudoku solver that does it automatically.
-What do you mean that's where the fun is? The real fun is to find a way to automate a game ;)
+We all spent countless hours trying to solve a sudoku in our life, to make this easier we created a sudoku solver that does it automatically.
+What do you mean? that's the fun part about the game. The real fun is to find a way to automate a game ;)
 
 ## What is a sudoku
-For thoses how spent the last 20 years in a cave, a sudoku is a number-placement puzzle where the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9 [wikipedia article](https://en.wikipedia.org/wiki/Sudoku).
+For those who spent the last 20 years in a cave, a sudoku is a number-placement puzzle where the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9 [wikipedia article](https://en.wikipedia.org/wiki/Sudoku).
 
 ## Project description
 This project implement the backtracking algorithm to solve a 9*9 sudoku, it also provide a basic template to add other methods to solve a sudoku.
@@ -23,7 +23,7 @@ Basically we choose one of the instances in `initial_instances.json` and solve i
 ## Your Task
 You can improve the project in many ways
 
-* Having a sudoku solver on console is nice, but a UI is better with these kind of games, so you can as a user interface with the library or technology you like.
+* Having a sudoku solver on console is nice, but a UI is preferable on these kind of games, so you can add a user interface with the library or technology you like.
 * You can improve the `initial_instances.json` file by adding other starting sudoku configuration.
 * You can do better by making an UI that unable a user to add a starting sudoku configuration.
 * As we saw with this project we love automating stuffs so wouldn't it be better to write a sudoku generator, that generate starting sudoku configuration ?
