@@ -1,12 +1,12 @@
 ## Table des matières:
 
-* [Qu'est-ce que le Hacktoberfest ?](#What-Is-Hacktoberfest)
+* [Qu'est-ce que le Hacktoberfest ?](#Qu'est-ce que la Hacktoberfest)
 * [Que pouvez-vous gagner ?](#Que-pouvez-vous-gagner)
 * [Comment faire votre première contribution ?](#Comment-faire-votre-première-contribution)
-* [Comment réussir le défi du Hacktoberfest ?](#Comment-Comment-Réussir-le-Défi-Hacktoberfest)
-* [Mise en route - De base](#Getting-Started-Basic)
-* [Mise en route - Avancé](#Getting-Started-Advanced)
-* [Tâches et défis](#Tâches-et-Défis)
+* [Comment réussir le défi du Hacktoberfest ?](#Comment-réussir-le-défi-du-Hacktoberfest)
+* [Prise en main de base](#Prise-en-main-de-base)
+* [Prise en main avancé](#Prise-en-main-avancé)
+* [Tâches et défis](#Tâches-et-défis)
 
 
 
@@ -23,7 +23,7 @@ Veuillez lire notre [Code de conduite pour les événements](https://docs.google
 
 Bon piratage !
 
-## Qu'est-ce que la Hacktoberfest ##
+## Qu'est-ce que la Hacktoberfest 
 
 
 Hacktoberfest - présenté par [DigitalOcean](https://www.digitalocean.com/) en partenariat avec [Dev](https://dev.to/) - est une célébration d'un mois des logiciels open source, **ouvert** à tous les membres de notre communauté mondiale. Vous pouvez aider à la **croissance** de l'open source et apporter des contributions positives à la communauté. Tous les antécédents et tous les niveaux de compétence sont encouragés à relever les **défis** ! Que vous soyez :
