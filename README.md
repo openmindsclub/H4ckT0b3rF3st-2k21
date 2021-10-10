@@ -72,7 +72,7 @@ To claim the aforementioned prizes, the winners must visit us at our local in US
 2. Fork this repo.
 3. Clone your fork, this will create a directory holding the name of the repo.
 ``` bash
-git clone https://github.com/YOURUSERNAME/H4ckT0b3rF3st-2k20.git
+git clone https://github.com/openmindsclub/H4ckT0b3rF3st-2k21.git
 ```
 4. Go to the cloned directory and make changes.
 5. Commit your changes, verify your changes and push to the forked repo.

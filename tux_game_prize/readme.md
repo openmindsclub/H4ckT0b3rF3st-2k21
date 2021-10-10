@@ -1,5 +1,7 @@
 # Tux the commander ![tux](https://www.pixenli.com/image/qA8YWVw2)
 
+Create a game splash screen for the game **tux the commander**. A game splash screen is an interface that appear while a game or a program is launching.
+
   * [Overview](#Overview)
   * [Story summary](#Story-summary)
   * [Guidelines](#Guidelines)
