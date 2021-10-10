@@ -1,12 +1,14 @@
-# tux twin
+# tux's twin
 
 once upon a time in  an old village a library that was know to be the source of knowledge to all the near villages </br>
 it had a vast books collection even the most rare books you can think of </br>
 it was guarded by a familly </br>
-thier role was to protect the library and make sure that the knowledge is shared because what's not shared is lost </br>
+
+thier role was to protect the library and make sure that the knowledge is shared because **what's not shared is lost** </br>
 the librarian position was inherited each generation the current librarian trains his succesor since birth to be able to protect the open source world </br>
 the librarians never work alone they always has a warrior named tux </br>
 he's a legendary creature in the shape of a penguin it has super power and each 150 year a new tux egg is created in the open source forest the most dangerous place you can think of </br>
+
 tux was loved by everyone he was cute and adorable, nice and helps anyone but still he always felt alone </br>
 no one was like him </br>
 his best friend was the librarian and he only knows the people that comes to the library </br>
@@ -18,6 +20,7 @@ because each 150 years the librarian goes on a journey to get the egg and onse i
 he waits for 15 days until the new creature is strong </br>
 in the mean time the current tux will be sick and slowly dies </br>
 this truth was untold for generations </br>
+
 the next egg was soon to be made and it's time to go on the journey </br>
 tux heard the librarian talking to his mentee and he wanted to go but his request was declined </br>
 tux accepted the answer and obeyed the librarian </br>
@@ -26,6 +29,7 @@ while they were in the forest the village was preparing for a celebration </br>
 the egg means a lot to them it symbolises power luck and wealth to the village </br>
 so they celebrate it before it's hatched </br>
 to get the blessing </br>
+
 the villagers were visiting the library on a daily basics and they were talking to tux </br>
 but no one mentioned anything as expected </br>
 few days after that a young kid came to the library, it wasn't his first time </br>
@@ -42,12 +46,14 @@ do i have a brother ? </br>
 and why the librarian lied to him </br>
 he felt hurt and didn't know whom to trust anymore </br>
 he went to his study room and stayed in the corner broken not knowing what's real and what's a lie anymore </br>
+
 the librarian came back that day and brought the egg with him </br>
 he was greeted like a warrior everyone cheared for him </br>
 the village was decorated with lanterns and some decorative items </br>
 and in the middle of the village a stand was made to hold the egg while they pray to god that this egg will bring them luck </br>
 after that they dance arround it and give sucrifices then the librarian will take the egg to the a secret room in the library waiting for it to hatch </br>
 but tux had different plans </br>
+
 tux stood and remembered the room that the librarian said it's forbidden to him </br>
 he went there and he found lot of books and a book that attracted his attention is a book in a closet </br>
 it was the only book in that closet with his name on it </br>
@@ -58,6 +64,7 @@ and didn't get why no one ever told him for the past 150 years </br>
 and he realized then that he indeed was the only tux but a new tux is here and the villagers are celebrating that </br>
 he didn't want the new tux to be tricked the way he was </br>
 so he decided to save his brother! </br>
+
 he left the library feeling scared but determined </br>
 scared because it's his first time gong out of the entire library </br>
 determined because he wants to save his brother </br>
@@ -69,6 +76,7 @@ the librarian and the egg were in the room </br>
 he was preparing for the celebration </br>
 tux waited till the librarian was distracted and stole the egg </br>
 and disappeared </br>
+
 the librarian realized that the egg was missing and everyone panicked </br>
 it was the first time such thing happens </br>
 they started looking for the egg everywhere </br>
@@ -76,6 +84,7 @@ the librarian was scared that anything can happen to tux </br>
 so he went rushing to the library to make sure he's not sick yet </br>
 and to his surprise tux was nowhere to be found </br>
 he panicked </br>
+
 he went to tell the villagers what happened he saw 2 men coming in hurry </br>
 you should come to the village you should come to the village </br>
 tux is ganna distroy the egg </br>
@@ -89,6 +98,7 @@ he was always nice to everyone so why no one told him the truth for generations 
 the librarian told him that it's the tradition and that tux is too valuable to hurt him by such truth </br>
 but tux didn't believe him </br>
 he told them that he's dying soon and he wants to know the truth before he leaves or else he will distroy the egg and he will die and they will end up with no tux </br>
+
 the librarian realized he had no choice so he told him the truth </br>
 thousands of years ago they had wars against the closed source world and tux were everywhere </br>
 they where numerous and they were the reason why the open source world won </br>
@@ -106,11 +116,13 @@ but he didn't know what to do </br>
 he can't stop the spell </br>
 if he's dead the world will slowly die </br>
 what can be done ?</br>
+
 the librarian told him to give back the egg and to not do any other harm </br>
 tux agreed but in 2 conditions </br>
 since he will die and the new tux will be alive for 15 days when tux is still alive </br>
 he said that wanted to spend his last days with his brother </br>
 the librarian was silent </br>
+
 tux proceeded, he said that all the future tux will be aware of this and the truth no longer should be hidden </br>
 it should be open to them </br>
 after all this is the open source rules </br>
@@ -121,6 +133,7 @@ tux asked if they ment brother </br>
 they explaied that the new egg is considered his twin </br>
 they are identical in everyway possible </br>
 tux was happy </br>
+
 smiled to the egg and said: you're my twin, i am not alone after all </br>
 they spend the next 15 days together </br>
 the egg hatched and tux was getting sicker everyday </br>
@@ -128,5 +141,6 @@ the new tux was growing so fast and tux was weakeing so fast </br>
 in his last moments he held the new tux's hand and told him to make sure the other tux knows everything </br>
 and that in past 150 years he only trully lived for 15 days </br>
 and then died </br>
+
 the village barried tux and they were all sad </br>
 after all he was the tux that changed the open source world! 
