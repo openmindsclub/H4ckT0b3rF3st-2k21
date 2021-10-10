@@ -1,24 +1,24 @@
 file_name,Pokemon Name,Pokemon Type
-1
-2
-3
-3-mega
-4
-5
-6
-6-mega-y
-6-mega-x
-7
-8
-9
-9-mega
-10
-11
-12
-13
-14
-15
-15-mega
+1,Bulbasaur,grass/pioson
+2,ivysaur,grass/poison
+3,Venusaur,grass/poison
+3-mega,mega Venusaur,grass/poison
+4,Charmander,fire
+5,Charmeleon,fire
+6,Charizard,fire/flying
+6-mega-y,mega charizard y,fire/flying
+6-mega-x,mega charizard x,fire/dragon
+7,Squirtle,water
+8,Wartortle,water
+9,Blastoise,water
+9-mega,mega Blastoise,water
+10,Caterpie,bug
+11,Metapod,bug
+12,Butterfree,bug/flying
+13,Weedle,bug/poison
+14,Kakuna,bug/poison
+15,Beedrill,bug/poison
+15-mega,mega Beedrill,bug/poison
 16
 17
 18
