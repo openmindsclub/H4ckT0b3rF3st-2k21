@@ -1,5 +1,6 @@
 from tkinter import *
 import math
+from math import sqrt
 
 #define the colors
 floral_white="#FEF9EF"
@@ -48,6 +49,11 @@ def calculate():
     # point out the global expression variable
     global expression
     try:
+        # check if there is a square in the expression
+        if expression.find("²") != -1: expression = square(expression)
+
+        if expression.find("√") != -1: expression = squareRoot(expression)
+         
         #eval function evaluates the expression 
         total=str(eval(expression))
         #update the equation by using set method
@@ -57,6 +63,22 @@ def calculate():
     except:
         equation.set("erreur")
         expression=""
+#Function that calculates the square
+
+def square(expression):
+    index = expression.find("²")
+    expression = expression.replace(expression[index], "", 1)
+    expression = expression[:index] + "*" + \
+    expression[index-1] + expression[index::]
+    return expression
+
+#Function that calculates the square root
+
+def squareRoot(expression):
+    index = expression.find("√")
+    expression = expression.replace(expression[index], "", 1)
+    expression = expression[:index] + str(sqrt(int(expression[index]))) + expression[index+1:]
+    return expression
 
 #3-the function delete which allows you to delete the content of the display screen
 def delete():
