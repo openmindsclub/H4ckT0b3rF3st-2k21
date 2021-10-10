@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=tic-tac-toe
+Exec=tic-tac-toe
+Icon=com.github.allaeddineomc.tic-tac-toe
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
