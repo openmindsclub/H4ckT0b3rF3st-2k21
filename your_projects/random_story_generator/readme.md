@@ -6,7 +6,8 @@ this is a simple story generator made using python
 
 just make sure python is installed 
 
+# The progress of the project
 
-you can make thiese changes: 
+you can add these: 
 - add more scenarios
-- make a gui 
+- gui 
