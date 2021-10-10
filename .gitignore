@@ -1,1 +1,5 @@
 wwwroot/
+
+**/__pycache__
+**/env
+**/venv
