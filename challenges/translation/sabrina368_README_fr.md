@@ -1,6 +1,6 @@
 ## Table des matières:
 
-* [Qu'est-ce que le Hacktoberfest ?](#Qu'est-ce que la Hacktoberfest)
+* [Qu'est-ce que le Hacktoberfest ?](#Qu'est-ce-que-la-Hacktoberfest)
 * [Que pouvez-vous gagner ?](#Que-pouvez-vous-gagner)
 * [Comment faire votre première contribution ?](#Comment-faire-votre-première-contribution)
 * [Comment réussir le défi du Hacktoberfest ?](#Comment-réussir-le-défi-du-Hacktoberfest)

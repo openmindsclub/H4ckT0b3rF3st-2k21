@@ -1,0 +1,26 @@
+{
+   "2010990174": {
+      "Name": "Chirag Jain",
+      "Father's Name": "Amit Jain",
+      "Mother's Name": "Reena Jain",
+      "Mobile no.": "8901789079",
+      "Course Interested": "Computer Science Engineering",
+      "Address": {
+         "Line 1": "51-A",
+         "Line 2": "Shankar Colony, Jandli",
+         "Line 3": "Ambala City"
+      }
+   },
+   "2010990175": {
+      "Name": "Test User",
+      "Father's Name": "Father",
+      "Mother's Name": "Mother",
+      "Mobile no.": "1234567890",
+      "Course Interested": "Computer Science Engineering",
+      "Address": {
+         "Line 1": "51-A",
+         "Line 2": "Shankar Colony, Jandli",
+         "Line 3": "Ambala City"
+      }
+   }
+}

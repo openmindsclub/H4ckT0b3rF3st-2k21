@@ -1,0 +1,64 @@
+{
+   "2010990174": {
+      "CS104": {
+         "FA": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "20",
+            "Marks Obtained": "20"
+         },
+         "ST": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "50",
+            "Marks Obtained": "50"
+         },
+         "End Term": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "100",
+            "Marks Obtained": "100"
+         },
+         "Project Based": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "200",
+            "Marks Obtained": "200"
+         }
+      },
+      "GE104": {
+         "FA": {
+            "Subject Name": "Introduction to Emerging Technologies",
+            "Max Marks": "20",
+            "Marks Obtained": "20"
+         }
+      }
+   },
+   "2010990175": {
+      "CS104": {
+         "FA": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "20",
+            "Marks Obtained": "10"
+         },
+         "ST": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "50",
+            "Marks Obtained": "35"
+         },
+         "End Term": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "100",
+            "Marks Obtained": "75"
+         },
+         "Project Based": {
+            "Subject Name": "Problem Solving eith Python Programming",
+            "Max Marks": "200",
+            "Marks Obtained": "30"
+         }
+      },
+      "GE104": {
+         "FA": {
+            "Subject Name": "Introduction to Emerging Technologies",
+            "Max Marks": "100",
+            "Marks Obtained": "50"
+         }
+      }
+   }
+}

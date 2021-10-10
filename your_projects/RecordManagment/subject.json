@@ -1,0 +1,22 @@
+{
+   "2010990174": {
+      "GE104": {
+         "Subject Name": "Introduction to Emerging Technologies",
+         "Credits": "2"
+      },
+      "CS104": {
+         "Subject Name": "Introduction to python programming",
+         "Credits": "5"
+      }
+   },
+   "2010990175": {
+      "GE104": {
+         "Subject Name": "Introduction to Emerging Technologies",
+         "Credits": "2"
+      },
+      "CS104": {
+         "Subject Name": "Problem Solving with Python",
+         "Credits": "5"
+      }
+   }
+}
