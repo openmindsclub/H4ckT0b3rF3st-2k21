@@ -1,6 +1,6 @@
 
 ## Description
-A short summary of your project
+a single player cli tic tac toe game that works as a flatpak
 ## Dependencies
 python
 ## How to run the project
