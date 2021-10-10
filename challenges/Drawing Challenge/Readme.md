@@ -5,5 +5,5 @@ I'm challenging you to draw whatever inspires you!! Using any tool that you feel
 
 ## The rules 
 * Use only 3 colors.
-* Son't copy on the others.
+* Don't copy on the others.
 * and must importantly HAVE FUN.
