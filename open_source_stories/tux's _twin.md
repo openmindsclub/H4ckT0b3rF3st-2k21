@@ -1,25 +1,23 @@
 # tux's twin
 
-once upon a time in  an old village a library that was know to be the source of knowledge to all the near villages </br>
-it had a vast books collection even the most rare books you can think of </br>
-it was guarded by a familly </br>
+Once upon a time in an old village, a library was known to be the source of knowledge to all nearby people. </br>
+It had a vast book collection, containing even the rarest books you can think of. </br>
+It was guarded by a family. </br>
 
-thier role was to protect the library and make sure that the knowledge is shared because **what's not shared is lost** </br>
-the librarian position was inherited each generation the current librarian trains his succesor since birth to be able to protect the open source world </br>
-the librarians never work alone they always has a warrior named tux </br>
-he's a legendary creature in the shape of a penguin it has super power and each 150 year a new tux egg is created in the open source forest the most dangerous place you can think of </br>
+Their role was to protect the library and make sure that its knowledge was shared because **what's not shared is lost**. </br>
+The librarian position was inherited through each generation. The current librarian would train his successor since birth to be able to protect the open source world. </br>
+The librarians never worked alone, they always had a warrior named Tux. </br>
+He's a legendary creature in the shape of a penguin with super powers. Every 150 years, a new Tux egg is created in the open source forest, the most dangerous place you can think of. </br>
 
-tux was loved by everyone he was cute and adorable, nice and helps anyone but still he always felt alone </br>
-no one was like him </br>
-his best friend was the librarian and he only knows the people that comes to the library </br>
-in fact he never left the library </br>
-he never had friends of his own species, although there is only him </br>
-but he doesn't know that </br>
-it's a secret that must be kept </br>
-because each 150 years the librarian goes on a journey to get the egg and onse it's hatched </br>
-he waits for 15 days until the new creature is strong </br>
-in the mean time the current tux will be sick and slowly dies </br>
-this truth was untold for generations </br>
+Tux was loved by everyone, he was cute, adorable, nice and helps anyone but still, he always felt alone as no one was like him. </br>
+His best friend was the librarian and the only people he knew, were those that came to the library. </br>
+In fact he never left the library.</br>
+He never had friends of his own species, since there was only him.</br>
+But he didn't know that. </br>
+Every 150 years, the librarian goes on a journey to get the new egg and once it is hatched,
+he waits for 15 days until the new creature is strong enough, </br>
+while the current Tux slowly fades away. </br>
+This truth was hidden from him. </br>
 
 the next egg was soon to be made and it's time to go on the journey </br>
 tux heard the librarian talking to his mentee and he wanted to go but his request was declined </br>

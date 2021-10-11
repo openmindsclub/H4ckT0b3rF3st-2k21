@@ -1,3 +1,4 @@
+#! /usr/bin/python
 import time
 from plyer import notification
 notification.notify(
