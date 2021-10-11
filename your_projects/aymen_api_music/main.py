@@ -1,4 +1,4 @@
-mport tekore as tk
+import tekore as tk
 
 app_token = tk.request_client_token("b516728497b34264afab4e995b4e2569", "0a0fec97699443d6b1a25b875f17325a")
 spotify = tk.Spotify(app_token)
