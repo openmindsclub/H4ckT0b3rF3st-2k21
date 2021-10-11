@@ -1,0 +1,7 @@
+data/com.github.allaeddineomc.tic-tac-toe.desktop.in
+data/com.github.allaeddineomc.tic-tac-toe.appdata.xml.in
+data/com.github.allaeddineomc.tic-tac-toe.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+
