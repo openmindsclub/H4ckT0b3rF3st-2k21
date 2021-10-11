@@ -8,7 +8,7 @@ Source code for  Project EULER problems from 1 to 10 .
 
 -You need to install *Python* and *C* compiler.
 
--For Problem05 i used **Numba** module to optimize runtime,you can install it using **pip** :
+-For Problem05 and Problem14 i used **Numba** module to optimize runtime,you can install it using **pip** :
 ``` bash
 pip install numba
 ```
