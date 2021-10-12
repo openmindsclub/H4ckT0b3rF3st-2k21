@@ -30,5 +30,5 @@ These are the softwares/hardwares you will need:
 4. Upload the code then open the serial monitor through here:  
 	![serial-monitor](screenshots/open-serial-monitor.bmp)  
 
-make sure the serial monitors is set to `No line ending` and the same `number baud` set in the code. 
+	make sure the serial monitors is set to `No line ending` and the same `number baud` set in the code.  
 	![monitor-config](screenshots/serial-monitor-config.bmp)
