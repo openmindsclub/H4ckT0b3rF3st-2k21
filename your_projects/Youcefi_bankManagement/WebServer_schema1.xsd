@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://DBConnect/" xmlns:tns="http://DBConnect/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="delete" type="tns:delete"/>
+
+  <xs:element name="deleteResponse" type="tns:deleteResponse"/>
+
+  <xs:element name="insert" type="tns:insert"/>
+
+  <xs:element name="insertResponse" type="tns:insertResponse"/>
+
+  <xs:element name="update" type="tns:update"/>
+
+  <xs:element name="updateResponse" type="tns:updateResponse"/>
+
+  <xs:complexType name="delete">
+    <xs:sequence>
+      <xs:element name="Bank_Num" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="update">
+    <xs:sequence>
+      <xs:element name="Bank_Num" type="xs:int"/>
+      <xs:element name="Name" type="xs:string" minOccurs="0"/>
+      <xs:element name="DA_Account_Num" type="xs:int"/>
+      <xs:element name="Euro_Account_Num" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="insert">
+    <xs:sequence>
+      <xs:element name="Bank_Num" type="xs:int"/>
+      <xs:element name="Name" type="xs:string" minOccurs="0"/>
+      <xs:element name="DA_Account_Num" type="xs:int"/>
+      <xs:element name="Euro_Account_Num" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertResponse">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
+

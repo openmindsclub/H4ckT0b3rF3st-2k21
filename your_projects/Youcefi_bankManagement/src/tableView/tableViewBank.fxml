@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1201.0" style="-fx-background-color: #0a0833;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableView.TableViewBankController">
+    <stylesheets>
+        <URL value="@tableviewbank.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="72.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Bank%20Logo%202.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-3.0" layoutY="77.0" prefHeight="670.0" prefWidth="1234.0">
+         <children>
+            <AnchorPane layoutX="197.0" layoutY="5.0" prefHeight="665.0" prefWidth="1036.0" styleClass="pane2">
+               <children>
+                  <TableView fx:id="bankTable" layoutX="388.0" layoutY="73.0" onMouseClicked="#handleMouseAction" prefHeight="539.0" prefWidth="630.0">
+                     <columns>
+                        <TableColumn fx:id="bankNumCol" prefWidth="158.66656494140625" style="-fx-alignment: center;" text="Bank Number" />
+                        <TableColumn fx:id="nameCol" maxWidth="200.0" prefWidth="141.33343505859375" style="-fx-alignment: center;" text="Name" />
+                        <TableColumn fx:id="DAAccountNumCol" maxWidth="210.40008544921875" prefWidth="169.333251953125" style="-fx-alignment: center;" text="DA Account Number" />
+                        <TableColumn fx:id="EuroAccountNumCol" maxWidth="200.0" prefWidth="153.06689453125" style="-fx-alignment: center;" text="Euro Account Number" />
+                     </columns>
+                  </TableView>
+                  <Label layoutX="66.0" layoutY="26.0" prefHeight="40.0" prefWidth="80.0" style="--fx-font-family: Open Sans; -fx-font-weight: bold;" stylesheets="@tableviewbank.css" text="Banks" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="45.0" layoutY="125.0" prefHeight="490.0" prefWidth="330.0" styleClass="myPane" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="125.0">
+                     <children>
+                        <TextField fx:id="tf_nbanque" layoutX="24.0" layoutY="142.0" prefHeight="35.0" prefWidth="240.0" promptText="Enter Bank Number" styleClass="fld" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="142.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="tf_nomBanque" layoutX="24.0" layoutY="215.0" prefHeight="35.0" prefWidth="240.0" promptText="Enter Bank Name" styleClass="fld" AnchorPane.leftAnchor="24.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="tf_ncompteDA" layoutX="24.0" layoutY="303.0" prefHeight="35.0" prefWidth="240.0" promptText="Enter DA Account Number" styleClass="fld" AnchorPane.leftAnchor="24.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="tf_ncompteEuro" layoutX="24.0" layoutY="390.0" prefHeight="35.0" prefWidth="240.0" promptText="Enter Euro Account Number" styleClass="fld" AnchorPane.leftAnchor="24.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="24.0" layoutY="111.0" prefHeight="30.0" prefWidth="111.0" styleClass="infoLabel" text="Bank Number" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="111.0" />
+                        <Label layoutX="24.0" layoutY="184.0" prefHeight="30.0" prefWidth="111.0" styleClass="infoLabel" text="Bank Name" AnchorPane.leftAnchor="24.0" />
+                        <Label layoutX="24.0" layoutY="359.0" prefHeight="30.0" prefWidth="208.0" styleClass="infoLabel" text="Euro Account Number" AnchorPane.leftAnchor="24.0" />
+                        <Label layoutX="24.0" layoutY="271.0" prefHeight="35.0" prefWidth="152.0" styleClass="infoLabel" text="DA Account Number" AnchorPane.leftAnchor="24.0" />
+                        <Label layoutX="59.0" layoutY="16.0" prefHeight="86.0" prefWidth="208.0" style="-fx-font-size: 18;" styleClass="myLabel" text="Fill Bank's Information " AnchorPane.topAnchor="16.0" />
+                     </children></AnchorPane>
+                  <Label layoutX="66.0" layoutY="52.0" prefHeight="30.0" prefWidth="222.0" style="-fx-font-size: 17;" styleClass="myLabel" text="Management" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-21.0" layoutY="-2.0" prefHeight="672.0" prefWidth="242.0" styleClass="pane1">
+               <children>
+                  <VBox layoutX="22.0" layoutY="34.0" prefHeight="598.0" prefWidth="217.0">
+                     <children>
+                        <Label styleClass="myLabel" text="Overview" translateX="25.0" translateY="15.0" />
+                        <JFXButton prefHeight="38.0" prefWidth="233.0" styleClass="overview" text="Home" translateY="30.0">
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" translateX="-30.0">
+                                 <image>
+                                    <Image url="@../images/icons8_Home_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton prefHeight="38.0" prefWidth="241.0" styleClass="dataView" text="Data View" translateY="40.0">
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" translateX="-20.0">
+                                 <image>
+                                    <Image url="@../images/icons8-base-de-données-50%20(12).png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <Label styleClass="myLabel" text="Operations" translateX="25.0" translateY="60.0" />
+                        <JFXButton fx:id="btn_insert" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="170.0" styleClass="btn_hover" text="Add New" translateX="30.0" translateY="80.0">
+                           <graphic>
+                              <ImageView fitHeight="38.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" translateX="-20.0">
+                                 <image>
+                                    <Image url="@../images/icons8-ajouter-la-base-de-données-64%20(1).png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btn_update" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="170.0" styleClass="btn_hover" text="Update" translateX="30.0" translateY="95.0">
+                           <graphic>
+                              <ImageView fitHeight="27.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" translateX="-27.0">
+                                 <image>
+                                    <Image url="@../images/icons8-approuver-et-mettre-à-jour-50.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btn_delete" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="170.0" styleClass="btn_hover" text="Delete" translateX="30.0" translateY="110.0">
+                           <graphic>
+                              <ImageView fitHeight="34.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" translateX="-27.0">
+                                 <image>
+                                    <Image url="@../images/icons8-supprimer-30.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" translateY="100.0" />
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="tf_filter" layoutX="95.0" layoutY="19.0" prefHeight="40.0" prefWidth="251.0" promptText="Search for ..." styleClass="search">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="302.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8_Search_52px.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="1174.0" layoutY="11.0" onMouseClicked="#close" text=" " AnchorPane.rightAnchor="-1.800000000000182" AnchorPane.topAnchor="11.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-multiplier-30.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
