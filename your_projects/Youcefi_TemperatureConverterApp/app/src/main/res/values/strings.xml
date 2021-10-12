@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP5_Exo2</string>
+    <string name="btn_Compter">Conversion T°</string>
+    <string name="bienvenue">Bienvenue sur notre application de conversion de température</string>
+    <string name="service">Veuillez cliquez sur le bouton suivant pour lancer le service :</string>
+    <string name="copyright">Copyright N.H.Youcefi</string>
+    <string name="t1">Celsius To Fahrenheit</string>
+    <string name="t2">"Fahrenheit To Celsius "</string>
+    <string name="btn">Convertir</string>
+</resources>
