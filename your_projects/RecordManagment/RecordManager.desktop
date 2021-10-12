@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Comment=creates a database in which we can maintain our record very easily
+Exec=python RecordsManager.py
+Icon=RecordManager-icon
+Name=Records manager
+Type=Application
