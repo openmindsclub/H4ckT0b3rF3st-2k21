@@ -2,7 +2,7 @@
 
 ## Description
 
-Source code for  Project EULER problems from 1 to 20 + problem 067 .
+Source code for  Project EULER problems from 1 to 25 + problem 067 .
 
 ## Requirements
 
