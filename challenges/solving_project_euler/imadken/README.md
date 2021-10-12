@@ -2,7 +2,7 @@
 
 ## Description
 
-Source code for  Project EULER problems from 1 to 10 .
+Source code for  Project EULER problems from 1 to 20 + problem 067 .
 
 ## Requirements
 
@@ -12,5 +12,11 @@ Source code for  Project EULER problems from 1 to 10 .
 ``` bash
 pip install numba
 ```
+
+--For Problem 17 you need to install **inflect** module
+``` bash
+pip install inflect
+```
+
 #### What is numba ?
 Numba translates Python functions to optimized machine code at runtime using the industry-standard LLVM  compiler library. Numba-compiled numerical algorithms in Python can approach the speeds of C or FORTRAN.
