@@ -1,5 +1,5 @@
 
-with open(r"C:\Users\HP\Desktop\p022_names.txt","r") as names:
+with open("p022_names.txt","r") as names:
 
   names = names.read().replace("\"","").split(",")
 
