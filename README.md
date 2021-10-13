@@ -2,7 +2,7 @@
 ![Event logo](https://www.pixenli.com/image/9Ws7i63v)
 
 [![opensource  Love svg1 ](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2021/openmindsclub/H4ckT0b3rF3st-2k21?color=F74700&label=Openfest%202021)
 [![GitHub contributors](https://img.shields.io/github/contributors/openmindsclub/H4ckT0b3rF3st-2k21)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/openmindsclub/H4ckT0b3rF3st-2k21)](https://GitHub.com/Naereen/StrapDown.js/pull/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/openmindsclub/H4ckT0b3rF3st-2k21)](https://GitHub.com/Naereen/StrapDown.js/pull/)
