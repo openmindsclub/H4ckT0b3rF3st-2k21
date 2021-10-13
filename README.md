@@ -105,7 +105,7 @@ You will find in our repo, two special challenges, **Open Source story** and **t
 
 ### Task 4:
 ### Add your own project
-You have an idea and you wanna make it happen? start coding and push your project to the `/Your_projects` directory in the repo.
+You have an idea and you wanna make it happen? start coding and push your project to the `/Your_projects` directory in the repo.**PRs containing projects already in our previous repositories will not be accepted.**
 
 ## MAKE IT A PLAYFUL FEST!
   Hacktoberfest participants, so far, have represented 151 countries and thousands of unique skill-sets. Its program welcomes everyone already in the open source software community – and, of course, anyone interested in diving in!
