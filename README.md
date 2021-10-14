@@ -1,5 +1,5 @@
 ## ![logo](https://www.pixenli.com/image/D8IcXWhb) OpenMinds Club is joining Hacktoberfest 2021!![logo](https://www.pixenli.com/image/D8IcXWhb) 
-![Event logo](https://www.pixenli.com/image/9Ws7i63v)
+![logo de l'Événement](https://www.pixenli.com/image/9Ws7i63v)
 
 [![opensource  Love svg1 ](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -13,35 +13,42 @@
 [![GitHub stars](https://img.shields.io/github/stars/openmindsclub/H4ckT0b3rF3st-2k21?style=social)](https://github.com/abdelhak2406/test/network)
 
 ## Table of Content:
-  * [What Is Hacktoberfest?](#What-Is-Hacktoberfest)
-  * [What Can You Earn?](#What-Can-You-Earn)
-  * [How To Make Your First Contribution?](#How-To-Make-Your-First-Contribution)
-  * [How To Successfully Complete The Hacktoberfest Challenge?](#How-To-Successfully-Complete-The-Hacktoberfest-Challenge)
-  * [Getting Started - Basic](#Getting-Started-Basic)
-  * [Getting Started - Advanced](#Getting-Started-Advanced)
-  * [Tasks and Challenges](#Tasks-and-Challenges)
+  * [C'est quoi Hacktoberfest?](#C'est-quoi-Hacktoberfest?)
+  * [Que-ce que je peux gagner?](#Que-ce-que-je-peux-gagner)
+  * [Comment faire ma première contribution ?](#Comment-faire-ma-première-contribution)
+  * [Comment réussir le Hacktoberfest challenge ?](#Comment-réussir-le-Hacktoberfest-challenge)
+  * [Commencer -niveau débutant ](#Commencer-niveau-débutant)
+  * [Commencer -niveau avancé](#Commencer-niveau-avancé)
+  * [Tâches-et Challenges](#Tâches-et-Challenges)
 
-We hope this event will be the first step in your long journey of contributing to free Open-Source projects!<br/><br/>
-By hosting Hacktoberfest 2021, OpenMinds Club strives to encourage everyone in contributing to free Open-Source projects as it has been, and will always remain our philosophy and fundamental goal.<br/> This repository is open to anyone and everyone who seeks to contribute in any project they've liked or discovered. As for the beginners, you are welcome to join our Hacktoberfest as well! Make sure you learn more about [open source](https://github.com/open-source).<br/><br/>
-There is no contribution that is either too small or insignificant. However, every pull request has to, of course, follow some guidelines mentioned [here](https://hacktoberfest.digitalocean.com/resources/participation). All of OpenMinds Club welcomes you among our family, whether to attend our FOSS Talk, Git/Github Workhop, or to complete the Openfest challenges.<br/><br/>
-Please read our [Events Code of Conduct](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit) before attending.<br/><br/>
+On espère que cet événement vous sera une guidance pour commencer votre aventure de contribution en projets Open-Sources !<br/><br/>
+En accueillant Hacktoberfest 2021, le Club OpenMinds  se mobilise pour encourager tout le monde à contribuer à des projets libres Open-Source comme il a été, et restera toujours notre philosophie et objectif fondamental.<br/> Ce repository est ouvert à toute personne qui cherche à contribuer à un projet qu’elle a aimé ou découvert. En ce qui concerne les débutants, vous êtes invités à rejoindre notre Hacktoberfest ainsi! Assurez-vous d’en savoir plus sur [open source](https://github.com/open-source).<br/><br/>
+Il n’y a pas de contribution qui soit trop petite ou insignifiante. Cependant, chaque demande de request doit, bien sûr, suivre certaines lignes directrices mentionnées [ici](https://hacktoberfest.digitalocean.com/resources/participation). Tous les membres d’OpenMinds Club vous souhaitent la bienvenue parmi notre famille, que ce soit pour assister à notre FOSS Talk, Git/Github Workhop ou pour compléter les défis Openfest.<br/><br/>
+N'oubliez pas de lire [Code de conduite de l'événement](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit) avant d'assister.<br/><br/>
 Happy Hacking!
 
-## What is Hacktoberfest ###
-  Hacktoberfest — brought to you by [DigitalOcean](https://www.digitalocean.com/) in partnership with [Dev](https://dev.to/) — is a month-long celebration of open-source software, **open** to everyone in our global community. You can help the **growth** of open source and make positive contributions to the community. All backgrounds and skill levels are encouraged to complete the **challenges**! Whether you are :
-   - A developer
-   - Student learning to code
-   - Event host
-   - Or any company of any size, you can help the growth of open source and make positive contributions to the community. All backgrounds and skill levels are encouraged to complete the challenges! 
+## C'est quoi Hacktoberfest? ###
+  Hacktoberfest – présenté par [DigitalOcean] (https://www.digitalocean.com/) en partenariat avec [Dev] (https://dev.to/) – est une célébration d’un mois des logiciels libres, **ouverts** pour tous les membres de notre communauté mondiale. Vous pouvez aider la **croissance** de l’open source et apporter des contributions positives à la communauté. Tous les antécédents et niveaux de compétence sont encouragés à relever les **défis**! Que vous soyez :
+   - Un développeur
+   - Un apprenti de code
+   - Hôte de l’événement
+   - Ou toute entreprise de toute taille, vous pouvez contribuer à la croissance de l’open source et apporter des contributions positives à la communauté. Tous les antécédents et tous les niveaux de compétence sont encouragés à relever les défis! 
 ​
-## What Can You Earn 🎁
-  In addition to having lots of fun, adding some new nerds to your social network, you can earn a **limited version t-shirt and ton of hacktoberfest swag**!<br/><br/>
-  This year in particular, OpenMinds Club is inviting you to participate for chances of winning extra prizes if you succeed to land the first prize in one of the set categories, namely: <br/>
-  * **Brave Benefactor**: most number of Pull Requests to the repo.
-  * **Story Sensation**: most change rate (additions + deletions) to the Open Source Story project.
-  * **Diligent Developer**: most number of Pull Requests to projects related to IT.
-  * **Creative native**: best Game splash screen for Tux game.<br/>
+## Que-ce que je peux gagner 🎁
+  En plus d’avoir beaucoup de fun, ajoutant de nouveaux nerds à votre réseau social, vous pouvez gagner une **version limitée t-shirt et une tonne de swag hacktoberfest** !<br/><br/>
+  Cette année en particulier, le Club OpenMinds vous invite à participer pour les chances de gagner des prix supplémentaires si vous réussissez à décrocher le premier prix dans l’une des catégories définies, à savoir : <br/>
+  * **Brave Benefactor**:le plus grand nombre de Pull Requests au repo.
+  * **Story Sensation**:  le taux de changement (ajouts + suppressions) dans les projets Open Source Story.
+  * **Diligent Developer**: Nombre de Pull Requests au projects IT.
+  * **Creative native**: meilleur écran d’accueil pour le jeu Tux.<br/>
   
+
+/////////////////////////////////////////////////
+
+
+
+
+
 ### Rules:
 The winner of the best Game splash screen will be decided by the vote of our community on social media.
 ### Openfest Prizes:
