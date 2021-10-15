@@ -1,21 +1,21 @@
 #,file_name,Pokemon Name,Pokemon Type
-1,Bulbasaur,Grass,Poison
-2,Ivysaur,Grass,Poison
-3,Venusaur,Grass,Poison
-3,VenusaurMega Venusaur,Grass,Poison
-4,Charmander,Fire,
-5,Charmeleon,Fire,
-6,Charizard,Fire,Flying
-6,CharizardMega Charizard X,Fire,Dragon
-6,CharizardMega Charizard Y,Fire,Flying
-7,Squirtle,Water,
-8,Wartortle,Water,
-9,Blastoise,Water,
-9,BlastoiseMega Blastoise,Water,
-10,Caterpie,Bug,
-11,Metapod,Bug,
-12,Butterfree,Bug,Flying
-13,Weedle,Bug,Poison
+1,1.jpg,Bulbasaur,"Grass, Poison"
+2,2.jpg,Ivysaur,"Grass, Poison"
+3,3-mega.jpg,Mega Venusaur,"Grass, Poison"
+3,3.jpg,Venusaur,"Grass, Poison"
+4,4.jpg,Charmander,Fire
+5,5.jpg,Charmeleon,Fire
+6,6-mega-x.jpg,Mega Charizard X,"Fire, Dragon"
+6,6-mega-y.jpg,Mega Charizard Y,"Fire, Flying"
+6,6.jpg,Charizard,"Fire, Flying"
+7,7.jpg,Squirtle,Water
+8,8.jpg,Wartortle,Water
+9,9-mega.jpg,Mega Blastoise,Water
+9,9.jpg,Blastoise,Water
+10,10.jpg,Caterpie,Bug
+11,11.jpg,Metapod,Bug
+12,12.jpg,Butterfree,"Bug, Flying"
+13,13.jpg,Weedle,"Bug, Poison"
 14,Kakuna,Bug,Poison
 15,Beedrill,Bug,Poison
 15,BeedrillMega Beedrill,Bug,Poison
