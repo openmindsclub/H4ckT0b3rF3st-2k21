@@ -49,72 +49,72 @@ Happy Hacking!
 
 
 
-### Rules:
-The winner of the best Game splash screen will be decided by the vote of our community on social media.
-### Openfest Prizes:
-* Certificate (Signed and stamped by the president of the OpenMindsClub).
-* OpenMindsClub Sticker.
-* Exclusive "Contributor" Sticker.
-* 2 Guaranteed places for a future event, workshop or course of your choice.
-* Github Account Exposure
+### Règles :
+Le gagnant du meilleur écran d’accueil du jeux sera décidé par le vote de notre communauté sur les réseaux sociaux.
+### Prix Openfest :
+* Certificat (signé et estampillé par le président de OpenMindsClub).
+* Autocollant OpenMindsClub.
+* Autocollant exclusif « Contributeur ».
+* 2 places garanties pour un prochain événement, atelier ou cours de votre choix.
+* Exposition du Compte Github
 ​<br/>
 
-To claim the aforementioned prizes, the winners must visit us at our local in USTHB (further details will be specified in an email for that purpose)
+Pour réclamer les prix susmentionnés, les gagnants doivent nous rendre visite à notre locale à l’USTHB (plus de détails seront précisés dans l'email à cette fin).
 
-## How To Make Your First Contribution
-  You should familiarize yourself with How To Create a Pull Request, check the Getting Started section they can be made in any GitHub-hosted repositories/projects, or attend our Git/Github Workshop!
+## Comment faire votre première contribution
+  Vous devriez vous familiariser avec Comment créer une demande de tirage, consulter la section Comment faire ma première contribution , ils peuvent être réalisés dans n’importe quel repository/projet hébergé par GitHub, ou participer à notre atelier Git/Github !
 ​
-## How To Successfully Complete The Hacktoberfest Challenge
-  To qualify for the official limited edition Hacktoberfest shirt, you must register in [hacktobefest](https://hacktoberfest.digitalocean.com/) website and then make four pull requests (PRs) between October 1-31 (in any time zone. PRs can be made to any public repo on [GitHub](https://github.com/). If a maintainer reports your pull request as invalid or as poor behavior opposing the project’s [code of conduct](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit), you will become ineligible to participate.
-  ## Getting Started Basic
-1. Fork this Repo, just click on the Fork button in the top right corner of the page, it'll create an exact copy of this repo in your account.
-2. Make a contribution to any section of the repo, if you don't have an exact idea of what you can do, you can start by doing one of tasks below.
-3. Commit your changes and leave a short message describing what your changes are about.
-4. Create a Pull Request by clicking on the `New Pull Request` button and fill the PR form, then click `Create Pull Request`.
-5. Voilà! You have just created a Pull Request, your PR will be reviewed and merged to the original repo.
-6. Share your changes with your friends and have fun!
+## Comment réussir le Hacktoberfest Challenge
+  Pour se qualifier pour l'officielle  édition limitée Hacktoberfest, vous devez vous enregistrer dans [hacktobefest](https://hacktoberfest.digitalocean.com/) site Web et ensuite faire quatre pull requests (PRs) entre le 1er et le 31 octobre (dans n’importe quel fuseau horaire. PR peut être fait à n’importe quel repo public sur [GitHub](https://github.com/). Si un mainteneur déclare que votre requête de tirage est invalide ou que votre comportement s’oppose à celui du projet [code de conduite](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)vous deviendrez inadmissible à participer., 
+  ## commencer niveau-basic
+Faites un Fork du repo, cliquez simplement sur le bouton Fork dans le coin supérieur droit de la page, il va créer une copie exacte de ce repo dans votre compte.
+2. Apportez une contribution à n’importe quelle section du repo, si vous n’avez pas une idée exacte de ce que vous pouvez faire, vous pouvez commencer par accomplir l’une des tâches ci-dessous.
+3. Confiez vos modifications(en utilisant le commit) et laissez un court message décrivant en quoi elles consistent.
+4. Créez une pull request en cliquant sur le bouton « New Pull Request » et remplissez le formulaire de PR, puis cliquez sur « Create Pull Request ».
+5. Voilà! Vous venez de créer une Pull Request, votre PR sera examiné et fusionné avec le dépôt initial.
+6. Partagez vos changements avec vos amis et amusez-vous!
 
-## Getting Started Advanced
-1. Install [git](https://git-scm.com).
-2. Fork this repo.
-3. Clone your fork, this will create a directory holding the name of the repo.
-``` bash
+## commencer niveau-avancé
+1. Installez [git] (https://git-scm.com).
+2. Faites un Fork au repo.
+3. Clonez votre fork, cela créera un répertoire contenant le nom du repo.
+«». bash
 git clone https://github.com/YOURUSERNAME/H4ckT0b3rF3st-2k20.git
-```
-4. Go to the cloned directory and make changes.
-5. Commit your changes, verify your changes and push to the forked repo.
-``` bash
+«
+4. Accédez au répertoire cloné et apportez des modifications.
+5. Validez vos changements, vérifiez-les et appuyez sur le repo Forked.
+«». bash
 git add .
-git commit -m "My First Commit"
+git commit -m "Mon premier commit"
 git status
 git push origin main
-```
-6. Create a PR from the forked repo in your account.
-7. Voilà! You have just created a Pull Request, your PR will be reviewed by one of our maintainers and merged to the original repo.
-8. Share your changes with your friends and have fun!
+«
+6. Créez une PR à partir du forked repo dans votre compte.
+7. Voilà ! Vous venez de créer une Pull Request, votre PR sera revu par l’un de nos mainteneurs et fusionné avec le repo d’origine.
+8. Partagez vos changements avec vos amis et amusez-vous!
 
-## Tasks and Challenges
+## Taches et Challenges
 
-*we will accept your pull request once its content has been verified by one of our organizers, and that for each contribution in one of our projects or challenges*
+*nous accepterons votre pull request une fois que son contenu aura été vérifié par l’un de nos organisateurs, et que pour chaque contribution dans l’un de nos projets ou défis*
 
-### Task 1:
-### Solve one of the challenges in the repo
-There are plenty of challenges in the repo, read the README.md file in of the `/challanges` and try to do what it says. 
+### Tache 1:
+### Résoudre l’un des défis dans le repo
+Il y a beaucoup de défis à relever dans le repo, lisez le fichier README.md dans les « /challanges » et essayez de faire ce qu’il dit. 
 
-### Task 2:
-### Contribute in our IT projects and solve issues
-Go to the `/projects` file and you will find some empty, not finished or some issues in our projects, try to fix or improve the code by finding and solving one of the issues.
+### Tache 2:
+### Contribuer à nos projets IT et essayez de résoudre les problèmes
+Allez dans le fichier `/projects' et vous trouverez des fichiers vides, non terminés ou des problèmes dans nos projets, essayez de corriger ou d’améliorer le code en trouvant et en résolvant l’un des problèmes.
 
-### Task 3:
-### Opensource story and/or tux_game_prize
-You will find in our repo, two special challenges, **Open Source story** and **tux_game_prize**, for each challenge u can respectively win the prize of story sensation and creative native prize.
+### Tache 3:
+### Histoire Opensource et/ou tux_game_prize
+Vous trouverez dans notre repo, deux défis spéciaux, **Open Source story** et **tux_game_prize**, pour chaque défi, vous pouvez respectivement gagner le prix de la sensation d’histoire et le prix de création native.
 
 
-### Task 4:
-### Add your own project
-You have an idea and you wanna make it happen? start coding and push your project to the `/Your_projects` directory in the repo.
+### Tache 4:
+### Ajoutez votre propre projet
+Vous avez une idée et vous voulez la réaliser ? commencez à coder et poussez votre projet vers le répertoire `/Your_projects' dans le repo.
 
-## MAKE IT A PLAYFUL FEST!
-  Hacktoberfest participants, so far, have represented 151 countries and thousands of unique skill-sets. Its program welcomes everyone already in the open source software community – and, of course, anyone interested in diving in!
+## Faites de ce FEST un jeux amusant !
+  Jusqu’à présent, les participants ont représenté 151 pays et des milliers d’ensembles de compétences uniques. Son programme accueille tous les membres de la communauté des logiciels libres – et, bien sûr, tous ceux qui s’intéressent à son elargissement !
   
 [![Generic badge](https://img.shields.io/badge/Made%20With-Love-FF1493.svg)](https://shields.io/) ![Open Source Love svg1](https://www.pixenli.com/image/FpTQu89X)
