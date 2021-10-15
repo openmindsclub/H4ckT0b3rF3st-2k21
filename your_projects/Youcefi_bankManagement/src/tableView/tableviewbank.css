@@ -1,0 +1,125 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.pane1{
+    -fx-background-color: #ffffff;
+    -fx-background-radius : 30;
+    -fx-border-radius : 30;
+    -fx-effect: dropshadow(three-pass-box, derive(grey, -20%), 10, 0, 4, 4);
+
+}
+.pane2{
+    -fx-background-color: #f2f2f2;
+}
+
+.search{
+    -fx-background-color: #0a0833;
+    -fx-border-color :  #B7C3D7;
+    -fx-border-radius:  2em;
+     -fx-text-fill: white;
+}
+
+.overview{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 14px;
+
+}
+
+.btn{
+    -fx-background-color:#6C63FF;
+    -fx-background-radius : 30;
+    -fx-text-fill: white;
+    -fx-font-family :  Open Sans;
+    -fx-font-weight:bold;
+    /* -fx-border-color: #0a0833;
+     -fx-border-radius:  30;*/
+}
+
+.dataView,.overview:hover{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 14px;
+    -fx-border-color:#6C63FF;;
+    -fx-border-width:0px 0px 0px 7px;
+}
+.dataView:active{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 14px;
+    -fx-border-color:#6C63FF;;
+    -fx-border-width:0px 0px 0px 7px;
+}
+.myLabel{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 15px;
+    -fx-text-fill:#737373;
+    -fx-font-weight:bold;
+}
+/*
+.table-view {
+    /*-fx-background-color:#651FFF;
+    -fx-background-radius:14 14 0 0;
+    
+    }*/
+
+.table-view .column-header-background{
+    -fx-background-color: #ffffff;
+    /*-fx-background-radius:14;*/
+    -fx-background-insets: 0 0 10 0;     
+
+}
+.table-view .column-header, .table-view .filler{
+    -fx-size:50px;
+    -fx-border-width: 1 0 1 0;
+    -fx-background-color:#F1F1F1;
+    -fx-border-color: #E1E1E1;
+
+}
+
+.table-view .column-header .label {
+    -fx-font-family :  Open Sans;
+
+    -fx-font-size: 13px;
+}
+
+
+.btn_hover{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 14px;
+}
+.btn_hover:hover{
+    -fx-background-color:#6C63FF;
+    -fx-background-radius : 30;
+    -fx-text-fill: white;
+    -fx-font-family :  Open Sans;
+    -fx-font-weight:bold;
+    -fx-font-size: 14px;
+}
+
+.myPane{
+    -fx-border-color:#E1E1E1;
+    -fx-border-width:2px;
+    -fx-background-color: white;
+    -fx-background-radius: 2em;
+    -fx-border-radius:  2em;
+}
+
+.fld{
+    -fx-background-color: #E1E1E1 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 0 -1;
+}
+
+.fld:focused {
+    -fx-background-color: #6C63FF , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 0 -1;
+}
+
+.infoLabel{
+    -fx-font-family :  Open Sans;
+    -fx-font-size: 13px;
+    -fx-text-fill:#000000;
+    
+    
+}

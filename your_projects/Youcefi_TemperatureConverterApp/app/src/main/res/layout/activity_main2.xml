@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <EditText
+        android:id="@+id/valeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Insérer une valeur à convertir"
+        android:inputType="number"
+        android:textColorHighlight="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="217dp">
+
+
+        <RadioButton
+            android:id="@+id/ToFahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            android:text="@string/t1" />
+
+        <RadioButton
+            android:id="@+id/ToCelsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:text="@string/t2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Résultat"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+

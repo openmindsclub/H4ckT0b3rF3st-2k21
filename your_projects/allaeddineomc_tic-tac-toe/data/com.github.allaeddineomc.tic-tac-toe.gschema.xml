@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="tic-tac-toe">
+	<schema id="com.github.allaeddineomc.tic-tac-toe" path="/com/github/allaeddineomc/tic-tac-toe/">
+	</schema>
+</schemalist>

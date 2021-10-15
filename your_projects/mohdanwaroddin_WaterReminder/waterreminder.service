@@ -1,0 +1,5 @@
+[Unit]
+Description=Water Reminder service
+
+[Service]
+ExecStart=/usr/bin/WaterReminder.py
