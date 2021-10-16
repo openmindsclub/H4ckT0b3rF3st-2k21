@@ -9,7 +9,7 @@ using library  turtule for  short project
 ## Dependencies:
 
 	python : 
-		turtule package 
+		turtle package 
         	 tikenter package 
 
 ## How to run the project
