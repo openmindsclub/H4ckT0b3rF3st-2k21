@@ -16,19 +16,19 @@
 11,11.jpg,Metapod,Bug
 12,12.jpg,Butterfree,"Bug, Flying"
 13,13.jpg,Weedle,"Bug, Poison"
-14,Kakuna,Bug,Poison
-15,Beedrill,Bug,Poison
-15,BeedrillMega Beedrill,Bug,Poison
-16,Pidgey,Normal,Flying
-17,Pidgeotto,Normal,Flying
-18,Pidgeot,Normal,Flying
-18,PidgeotMega Pidgeot,Normal,Flying
-19,Rattata,Normal,
-20,Raticate,Normal,
-21,Spearow,Normal,Flying
-22,Fearow,Normal,Flying
-23,Ekans,Poison,
-24,Arbok,Poison,
+14,14.jpg,Kakuna,"Bug, Poison"
+15,15-mega.jpg,Mega Beedrill,"Bug, Poison"
+15,15.jpg,Beedrill,"Bug, Poison"
+16,16.jpg,Pidgey,"Normal, Flying"
+17,17.jpg,Pidgeotto,"Normal, Flying"
+18,18-mega.jpg,Mega Pidgeot,"Normal, Flying"
+18,18.jpg,Pidgeot,"Normal, Flying"
+19,19.jpg,Rattata,Normal
+20,20.jpg,Raticate,Normal
+21,21.jpg,Spearow,"Normal, Flying"
+22,22.jpg,Fearow,"Normal, Flying"
+23,23.jpg,Ekans,Poison
+24,24.jpg,Arbok,Poison
 25,Pikachu,Electric,
 26,Raichu,Electric,
 27,Sandshrew,Ground,
