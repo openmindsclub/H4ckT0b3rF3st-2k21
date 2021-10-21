@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <audio id="yes" src="correctanswer.mp3"></audio>
+    <audio id="no" src="wronganswer.mp3"></audio>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Quiz App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Choose your subject
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html">General Knowledge</a></li>
+                            <li><a class="dropdown-item" href="coding.html">Coding</a></li>
+                            <li><a class="dropdown-item" href="sport.html">Sports</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="container">
+        <div>
+            <h2>QUIZ</h2>
+            <p>Quizzes can help your students practise existing knowledge while stimulating interest in learning about
+                new subject matter</p>
+        </div>
+        <div class="rules">
+            <h2 id="rules">Quiz rules</h2>
+            <p>Each Question will have 60 sec and total 15 questions</p>
+            <img src="undraw_quiz_nlyh.svg" width="165" height="165" id="img" alt="" srcset="">
+            <input type="text" name="" placeholder="Enter Your Name" id="inpt">
+            <a id="link" href="#qno1">Let's get Start</a>
+        </div>
+    </div>
+    <hr>
+    <h2 style="color:rgba(24, 45, 236, 0.897);margin-left: 15px;">Quiz Section: </h2>
+    <main class="container my-6" id="card">
+        <div class="box">
+            <div class="question" id="qno1">1.What is (void*)0</div>
+            <div class="option">
+                <div class="btns">
+                    <button  id="ans1" value="A">A</button><button class="wrong otheroption1"
+                        value="B">B</button><button class="wrong otheroption1" value="C">C</button><button class="wrong otheroption1"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Symbolize the NULL pointer</p>
+                    <p>Symbolize the void pointer</p>
+                    <p>Symbolize both, NULL & void pointer</p>
+                    <p>Many display error</p>
+                </div>
+            </div>
+            <div id="time"></div>
+            <div class="correctans" id="box1">
+        
+            </div>
+            <a href="#qno2" class="pointer" onclick="starttimer()" rel="noopener noreferrer"> →</a>
+        
+        </div>
+        <div class="box" id="qno2">
+            <div class="question">2.Which standard library function can return a pointer to the last occurrence of a character in a string?</div>
+            <div class="option">
+                <div class="btns">
+                    <button  class="wrong otheroption2"  value="A">A</button><button id="ans2" 
+                        value="B">B</button><button class="wrong otheroption2" value="C">C</button><button class="wrong otheroption2"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>stchar()</p>
+                    <p>strrchr()</p>
+                    <p>strchar() & stchar()</p>
+                    <p> strrchar()</p>
+                </div>
+            </div>
+            <div id="time2" class="timer"></div>
+            <div class="correctans" id="box2">
+            </div>
+            <a href="#qno3" class="pointer" onclick="starttimer2()" rel="noopener noreferrer"> →</a>
+        </div>
+        </div>
+        <div class="box" id="qno3">
+            <div class="question">3.Which of the following mechanisms is/are provided by Object Oriented Language to
+            implement Object Oriented Model?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption3" value="A">A</button><button class="wrong otheroption3"
+                        value="B">B</button><button class="wrong otheroption3" value="C">C</button><button id="ans3" 
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Encapsulation</p>
+                    <p>Inheritance</p>
+                    <p>Polymorphism</p>
+                    <p>All of the mentioned</p>
+                </div>
+            </div>
+            <div id="time3" class="timer"></div>
+            <div class="correctans" id="box3">
+        
+            </div>
+            <a href="#qno4" class="pointer" onclick="starttimer3()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno4">
+            <div class="question">4.What is ‘Basis of Encapsulation’?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button id="ans4" value="A">A</button><button class="wrong otheroption4"
+                        value="B">B</button><button class="wrong otheroption4" value="C">C</button><button class="wrong otheroption4"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>object </p>
+                    <p>Method</p>
+                    <p>Class</p>
+                    <p>All of the above</p>
+                </div>
+            </div>
+            <div id="time4" class="timer"></div>
+            <div class="correctans" id="box4">
+        
+            </div>
+            <a href="#qno5" class="pointer" onclick="starttimer4()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno5">
+            <div class="question">5.Which of the following is not a high level programming language?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button  id="ans5" value="A">A</button><button class="wrong otheroption5" value="B">B</button><button
+                        class="wrong otheroption5" value="C">C</button><button class="wrong otheroption5" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Assembly</p>
+                    <p>C++</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                </div>
+            </div>
+            <div id="time5" class="timer"></div>
+            <div class="correctans" id="box5">
+        
+            </div>
+            <a href="#qno6" class="pointer" onclick="starttimer5()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno6">
+            <div class="question">6.Who is known as father of Java Programming Language?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button  id="ans6" value="A">A</button><button class="wrong otheroption6" value="B">B</button><button
+                    class="wrong otheroption6" value="C">C</button><button class="wrong otheroption6" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>James Gosling</p>
+                    <p>M. P Java</p>
+                    <p>Charel Babbage</p>
+                    <p>Blais Pascal</p>
+                </div>
+            </div>
+            <div id="time6" class="timer"></div>
+            <div class="correctans" id="box6">
+        
+            </div>
+            <a href="#qno7" class="pointer" onclick="starttimer6()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno7">
+            <div class="question">7.Which of the following are not Java keywords ?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption7" value="A">A</button><button class="wrong otheroption7" value="B">B</button><button
+                        id="ans7" value="C">C</button><button class="wrong otheroption7"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>double</p>
+                    <p>switch</p>
+                    <p>then</p>
+                    <p>instanceof</p>
+                </div>
+            </div>
+            <div id="time7" class="timer"></div>
+            <div class="correctans" id="box7">
+        
+            </div>
+            <a href="#qno8" class="pointer" onclick="starttimer7()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno8">
+            <div class="question">8.Who is Known as the father of World Wide Web (WWW)?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption8" value="A">A</button><button class="wrong otheroption8"
+                        value="B">B</button><button class="wrong otheroption8" value="C">C</button><button 
+                        id="ans8" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Robert Gailliau</p>
+                    <p>Tim Thompson</p>
+                    <p>Charles Darwin</p>
+                    <p>Tim Berners-Lee</p>
+                </div>
+            </div>
+            <div id="time8" class="timer"></div>
+            <div class="correctans" id="box8">
+        
+            </div>
+            <a href="#qno9" class="pointer" onclick="starttimer8()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno9">
+            <div class="question">9.Which of the following is not a browser?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button  id="ans9" value="A">A</button><button class="wrong otheroption9" value="B">B</button><button
+                    class="wrong otheroption9" value="C">C</button><button class="wrong otheroption9" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Microsofts Bing</p>
+                    <p>Netscape Navigator</p>
+                    <p>Mozilla Firefox</p>
+                    <p>Opera</p>
+                </div>
+            </div>
+            <div id="time9" class="timer"></div>
+            <div class="correctans" id="box9">
+        
+            </div>
+            <a href="#qno10" class="pointer" onclick="starttimer9()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno10">
+            <div class="question">10.The Process of erasing a disk is called?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption10" value="A">A</button><button id="ans10"  value="B">B</button><button class="wrong otheroption10" value="C">C</button><button class="wrong otheroption10"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>Wiping</p>
+                    <p>Formatting</p>
+                    <p>Cleaning</p>
+                    <p>Defragmenting</p>
+                </div>
+            </div>
+            <div id="time10" class="timer"></div>
+            <div class="correctans" id="box10">
+        
+            </div>
+            <a href="#qno11" class="pointer" onclick="starttimer10()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno11">
+            <div class="question">11.Which data manipulation command is used to combines the records from one or more tables?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption11" value="A">A</button><button class="wrong otheroption11" value="B">B</button><button
+                        id="ans11" value="C">C</button><button class="wrong otheroption11"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>SELECT</p>
+                    <p>PROJECT</p>
+                    <p>JOIN</p>
+                    <p>PRODUCT</p>
+                </div>
+            </div>
+            <div id="time11" class="timer"></div>
+            <div class="correctans" id="box11">
+        
+            </div>
+            <a href="#qno12" class="pointer" onclick="starttimer11()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno12">
+            <div class="question">12.Which of these operators is used to allocate memory to array variable in Java?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption12" value="A">A</button><button class="wrong otheroption12" value="B">B</button><button
+                    class="wrong otheroption12" value="C">C</button><button id="ans12"  value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>alloc</p>
+                    <p>malloc</p>
+                    <p>new malloc</p>
+                    <p>new</p>
+                </div>
+            </div>
+            <div id="time12" class="timer"></div>
+            <div class="correctans" id="box12">
+        
+            </div>
+            <a href="#qno13" class="pointer" onclick="starttimer12()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno13">
+            <div class="question">13.Which of the following are not the methods of the Thread class?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption13" value="A">A</button><button class="wrong otheroption13"
+                        value="B">B</button><button id="ans13"  value="C">C</button><button class="wrong otheroption13"
+                        value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>yield()</p>
+                    <p>sleep(long msec)</p>
+                    <p>go()</p>
+                    <p>stop()</p>
+                </div>
+            </div>
+            <div id="time13" class="timer"></div>
+            <div class="correctans" id="box13">
+        
+            </div>
+            <a href="#qno14" class="pointer" onclick="starttimer13()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno14">
+            <div class="question">14.The Internet was originally a project of which agency?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button id="ans14"  value="A">A</button><button class="wrong otheroption14" value="B">B</button><button
+                    class="wrong otheroption14" value="C">C</button><button class="wrong otheroption14" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>ARPA</p>
+                    <p>NSF</p>
+                    <p>NSA</p>
+                    <p>None of these</p>
+                </div>
+            </div>
+            <div id="time14" class="timer"></div>
+            <div class="correctans" id="box14">
+        
+            </div>
+            <a href="#qno15" class="pointer" onclick="starttimer14()" rel="noopener noreferrer"> →</a>
+        </div>
+        <div class="box" id="qno15">
+            <div class="question">15.A computer on internet are identified by?
+            </div>
+            <div class="option">
+                <div class="btns">
+                    <button class="wrong otheroption15" value="A">A</button><button class="wrong otheroption15" value="B">B</button><button
+                        id="ans15" value="C">C</button><button class="wrong otheroption15" value="D">D</button>
+                </div>
+                <div class="optionvalues">
+                    <p>e-mail address</p>
+                    <p>DNS</p>
+                    <p>IP address</p>
+                    <p>None of the above</p>
+                </div>
+            </div>
+            <div id="time15" class="timer"></div>
+            <div class="correctans" id="box15">
+        
+            </div>
+            <button id="submitbtn" class="pointer btn btn-primary" onclick="starttimer15()" >Submit</button>
+        </div>
+        </div>
+    </main>
+    <div id="score" class="container">
+        <div id="innerbox"><button onclick="displayscore()" class="btn btn-primary"> Total Score:</button></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
