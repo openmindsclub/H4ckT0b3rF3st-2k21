@@ -44,22 +44,22 @@
 37,32.jpg,Nidoran♂, Ground
 38,33.jpg,Nidorino,Poison
 39,34.jpg,Nidoking,"Poison, Ground"
-40,Wigglytuff,Normal,Fairy
-41,Zubat,Poison,Flying
-42,Golbat,Poison,Flying
-43,Oddish,Grass,Poison
-44,Gloom,Grass,Poison
-45,Vileplume,Grass,Poison
-46,Paras,Bug,Grass
-47,Parasect,Bug,Grass
-48,Venonat,Bug,Poison
-49,Venomoth,Bug,Poison
-50,Diglett,Ground,
-51,Dugtrio,Ground,
-52,Meowth,Normal,
-53,Persian,Normal,
-54,Psyduck,Water,
-55,Golduck,Water,
+40,35.jpg,Clefairy,Fairy
+41,36.jpg,Clefable,Fairy
+42,37.jpg,Vulpix,Fire
+43,38.jpg,Ninetails,Fire
+44,39.jpg,Jifflypuff,"Normal, Fairy"
+45,40.jpg,Wigglytuff,"Normal, Fairy"
+46,41.jpg,Zubat,"Poison, Flying"
+47,42.jpg,Golbat,"Poison, Flying"
+48,43.jpg,Oddish,"Grass, Poison"
+49,44.jpg, Gloom,"Grass, Poison"
+50,45.jpg,Vileplume,"Grass, Poison"
+51,46.jpg,Paras,"Bug, Grass"
+52,47.jpg,Parasect,"Bug, Grass"
+53,48.jpg,Venonat,"Bug, Poison"
+54,49.jpg,  Psyduck,Water,
+55,GolduckVenomoth,"Bug, Poison"
 56,Mankey,Fighting,
 57,Primeape,Fighting,
 58,Growlithe,Fire,
