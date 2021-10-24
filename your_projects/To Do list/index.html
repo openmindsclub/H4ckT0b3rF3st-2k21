@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <aside>
+        <ul class="menu">
+          <li data-show=".today">
+            <ion-icon name="sunny-outline"></ion-icon> <span>Today</span>
+          </li>
+          <li data-show=".tommorow">
+            <ion-icon name="cloudy-night-outline"></ion-icon>
+            <span>Tommorow</span>
+          </li>
+          <li data-show=".complete">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <span>Completed</span>
+          </li>
+          <li data-show=".pomodoro">
+            <ion-icon name="alarm-outline"></ion-icon>
+            <span>Pomodoro Timer</span>
+          </li>
+          <li data-show=".setting">
+            <ion-icon name="settings-outline"></ion-icon> <span>Setting</span>
+          </li>
+          <li data-show=".signup">
+            <ion-icon name="grid-outline"></ion-icon> <span>Sign up</span>
+          </li>
+        </ul>
+      </aside>
+      <section class="task">
+        <div class="today task-section active">
+          <h2>Today</h2>
+          <div class="statistique">
+            <div class="to-be-complet stat">
+              <h2>0</h2>
+              <span>Task to be completed</span>
+            </div>
+            <div class="complet-task stat">
+              <h2>0</h2>
+              <span>completed Tasks</span>
+            </div>
+          </div>
+          <div class="add-task">
+            <ion-icon name="add-outline"></ion-icon>
+            <input
+              type="text"
+              name="task"
+              id="task-today"
+              placeholder="Add a task ,Press ENTER to save"
+            />
+          </div>
+          <h4>Tasks list</h4>
+        </div>
+        <div class="tommorow task-section">
+          <h2>Tommorow</h2>
+          <div class="add-task">
+            <ion-icon name="add-outline"></ion-icon>
+            <input
+              type="text"
+              name="task"
+              id="task-tommorow"
+              placeholder="Add a task ,Press ENTER to save"
+            />
+          </div>
+        </div>
+        <div class="complete task-section">
+          <h2>Complete</h2>
+        </div>
+        <div class="pomodoro task-section">
+          <h2>Pomofocus</h2>
+          <div class="timer">
+            <h4>Pomodoro</h4>
+            <h1><span>25</span>:<span>00</span></h1>
+            <button>Start</button>
+          </div>
+        </div>
+        <div class="setting task-section">
+          <h2>Setting</h2>
+          <div class="setting-container">
+            <div class="account-info">
+              <h3>Account</h3>
+              <p>Abdelbasset</p>
+              <p>B@gmail.com</p>
+              <p>06743643</p>
+            </div>
+
+            <div class="about-us">
+              <h3>About US</h3>
+              <p>Help & FeedBack : help@help.com</p>
+              <p>Version 1.0</p>
+            </div>
+            <div class="follow">
+              <h3>Follow US</h3>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+        <div class="signup task-section">
+          <h2>sign up</h2>
+          <div class="signup-container">
+            <h5>Username</h5>
+            <input type="text" name="" id="user" />
+            <h5>Email</h5>
+            <input type="email" name="" id="mail" />
+            <h5>Password</h5>
+            <input type="password" id="pass" />
+            <h5>Phone</h5>
+            <input type="tel" name="" id="phone" />
+            <br />
+            <input type="submit" value="Sign up" />
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
